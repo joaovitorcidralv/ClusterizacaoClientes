@@ -1,6 +1,7 @@
 # ClusterizacaoClientes
 
-<img width="1081" height="470" alt="clusterização00" src="https://github.com/user-attachments/assets/f7d8c56d-257e-4325-bc77-79255db33dcb" />
+<img width="680" height="541" alt="image" src="https://github.com/user-attachments/assets/3420eac3-14dd-41c3-ac41-17836aff2a02" />
+
 
 São carregados dados sobre clientes de um shopping. Para começar uma ordenação em grupo, foram escolhidas as colunas de renda anual e pontuação de gastos.
 

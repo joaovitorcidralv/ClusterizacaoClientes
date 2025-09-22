@@ -4,6 +4,7 @@
 
 São carregados dados sobre clientes de um shopping. Para começar uma ordenação em grupo, foram escolhidas as colunas de renda anual e pontuação de gastos.
 
+<img width="502" height="447" alt="image" src="https://github.com/user-attachments/assets/08842f6b-5309-4bab-990c-6eb768bf011d" />
 
 Para evitar desbalanceamento entre renda e score, foi utilizado o StandardScaler
 

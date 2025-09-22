@@ -1,6 +1,9 @@
 # ClusterizacaoClientes
 
-São carregados dados sobre clientes de um shopping, campos como CustomerID, Gender, Age, Annual Income e Spending Score constam na base de dados disponível. Para começar uma ordenação em grupo, foram escolhidas as colunas de renda anual e pontuação de gastos. 
+<img width="1081" height="470" alt="clusterização00" src="https://github.com/user-attachments/assets/f7d8c56d-257e-4325-bc77-79255db33dcb" />
+
+São carregados dados sobre clientes de um shopping. Para começar uma ordenação em grupo, foram escolhidas as colunas de renda anual e pontuação de gastos.
+
 
 Para evitar desbalanceamento entre renda e score, foi utilizado o StandardScaler
 
@@ -20,6 +23,7 @@ Eixo X: Renda anual
 Eixo Y: Score de gastos
 
 Cor: Cluster
+<img width="1081" height="470" alt="clusterização00" src="https://github.com/user-attachments/assets/f7d8c56d-257e-4325-bc77-79255db33dcb" />
 
 Isso permite identificar padrões, por exemplo:
 

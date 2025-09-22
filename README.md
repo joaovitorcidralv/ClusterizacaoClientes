@@ -11,11 +11,14 @@ Para evitar desbalanceamento entre renda e score, foi utilizado o StandardScaler
 normalizador = StandardScaler()
 tabela_cluster[colunas_cluster] = normalizador.fit_transform(tabela_cluster[colunas_cluster])
 
+
 Então a adoção do algoritmo de clusterização Kmeans:
 
 modelo_kmeans = KMeans(n_clusters=5)
 modelo_kmeans.fit(tabela_cluster)
 tabela_cluster["Cluster"] = modelo_kmeans.labels_
+<img width="603" height="461" alt="image" src="https://github.com/user-attachments/assets/60d75e6a-0519-43a9-b021-1f2d1c9c119e" />
+
 
 Por fim, é gerado um gráfico de dispersão com plotly.express, mostrando os clientes no plano:
 
